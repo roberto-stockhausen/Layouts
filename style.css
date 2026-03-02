@@ -1,29 +1,25 @@
 /* I'm actually so fucking proud of this*/
-.bigblue{
+.bigblue{ /* Big blue square where the stuff is in */  
     background-color: rgb(76, 0, 255);
     padding: 50px;
-    margin: 20px;
-    /* Big blue square where the stuff is in */   
+    margin: 20px; 
 }
-.flex{
+.flex{ /* Thing that arranges divs side-by-side */
     display: flex;
-    /* Thing that arranges divs side-by-side */
 }
 body{
     background-color: blueviolet;
 }
-.bigrectangle{
+.bigrectangle{ /* This big dark purple rectangle contributes little to the code */
     background-color: rgb(87, 3, 87);
     padding: 30px;
     display: flex;
     justify-content: center;
-    /* This big dark purple rectangle contributes little to the code */
 }
-.square{
+.square{ /* yellow squares used to represent the elements in the layout of the website */
     background-color: rgb(255, 255, 0);
     padding: 20px;
     margin: 10px;
-    /* yellow squares used to represent the elements in the layout of the website */
 }
 .mediumhoriz{ /* Stands for "Medium Horizontal" */
     padding-right: 80px;
