@@ -1,10 +1,13 @@
+/* I'm actually so fucking proud of this*/
 .bigblue{
     background-color: rgb(76, 0, 255);
     padding: 50px;
     margin: 20px;
+    /* Big blue square where the stuff is in */   
 }
 .flex{
     display: flex;
+    /* Thing that arranges divs side-by-side */
 }
 body{
     background-color: blueviolet;
@@ -14,28 +17,30 @@ body{
     padding: 30px;
     display: flex;
     justify-content: center;
+    /* This big dark purple rectangle contributes little to the code */
 }
 .square{
     background-color: rgb(255, 255, 0);
     padding: 20px;
     margin: 10px;
+    /* yellow squares used to represent the elements in the layout of the website */
 }
-.mediumhoriz{
+.mediumhoriz{ /* Stands for "Medium Horizontal" */
     padding-right: 80px;
 }
-.bigvert{
+.mediumvert{ /* Stands for "Medium Verical" */
+    padding-bottom: 80px;
+}
+.bigvert{ /* Stands for "Big Verical" */
     padding-bottom: 140px;
 }
-.mediumvert{
-    padding-bottom: 80px;
-}
-.mvfix{
+.mvfix{ /* Stands for "Medium Vertical Fix" */
     margin-top: 20px;
+    /* This class is used to fix a weird quirk happening with some elements
+    (Specially the ones using the class mediumvert) where the margin of two
+    overlay, shortening the distance between them and making it ugly. This 
+    adds extra margin on the top of one of the elements to negate this problem */
 }
-.megacube{
-    padding-right: 80px;
-    padding-bottom: 80px;
-}
-.margintopper{
+.margintopper{ /* Adds empty space above element. Created specifically for Layout 8*/
     margin-top: 60px;
 }
