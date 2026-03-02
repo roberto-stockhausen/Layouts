@@ -1,0 +1,41 @@
+.bigblue{
+    background-color: rgb(76, 0, 255);
+    padding: 50px;
+    margin: 20px;
+}
+.flex{
+    display: flex;
+}
+body{
+    background-color: blueviolet;
+}
+.bigrectangle{
+    background-color: rgb(87, 3, 87);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.square{
+    background-color: rgb(255, 255, 0);
+    padding: 20px;
+    margin: 10px;
+}
+.mediumhoriz{
+    padding-right: 80px;
+}
+.bigvert{
+    padding-bottom: 140px;
+}
+.mediumvert{
+    padding-bottom: 80px;
+}
+.mvfix{
+    margin-top: 20px;
+}
+.megacube{
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+.margintopper{
+    margin-top: 60px;
+}
