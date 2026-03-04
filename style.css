@@ -52,3 +52,6 @@ body{
 .leftspace{ /* Adds left margin */
     margin-left: 40px;
 }
+.circle{
+    border-radius: 20px;
+}
