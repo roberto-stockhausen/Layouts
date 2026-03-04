@@ -40,3 +40,15 @@ body{
 .margintopper{ /* Adds empty space above element. Created specifically for Layout 8*/
     margin-top: 60px;
 }
+.margintopper2{ /* Adds less empty space above element. Created specifically for Layout 19*/
+    margin-top: 40px;
+}
+.Alittletotheleft{ /* Weird class that adds negative margin to an object. Made specifically for the spiral design */
+    margin-left: -50px;
+}
+.monolith{ /* The big block as tall as five lines */ 
+    padding-bottom: 260px;
+}
+.leftspace{ /* Adds left margin */
+    margin-left: 40px;
+}
