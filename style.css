@@ -27,6 +27,9 @@ body{
 .mediumvert{ /* Stands for "Medium Verical" */
     padding-bottom: 80px;
 }
+.bighoriz{
+    padding-right: 140px;
+}
 .bigvert{ /* Stands for "Big Verical" */
     padding-bottom: 140px;
 }
@@ -49,9 +52,15 @@ body{
 .monolith{ /* The big block as tall as five lines */ 
     padding-bottom: 260px;
 }
+.towerofbabel{
+    padding-bottom: 620px;
+}
 .leftspace{ /* Adds left margin */
     margin-left: 40px;
 }
 .circle{
     border-radius: 20px;
+}
+.mediumcircle{
+    border-radius: 50px;
 }
